@@ -1,239 +1,87 @@
-[18/09, 1:24 am] 2nd: <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="hi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>पूरा वीडियो देखें</title>
-  <meta name="description" content="पूरा वीडियो देखने के लिए नीचे क्लिक करें।">
+  <title>पूरा वीडियो देखें | Shiva Tech</title>
+  <meta name="description" content="वीडियो देखने के लिए नीचे क्लिक करें।">
 
-  <link rel="preload" as="image" href="thumbnail.webp">
+  <link rel="preload" as="image" href="thumbnail.png">
 
   <style>
     * {
       box-sizing: border-box;
+    }
+
+    html,
+    body {
       margin: 0;
       padding: 0;
+      min-height: 100%;
     }
 
     body {
       min-height: 100vh;
       display: flex;
-      align-items: center;
       justify-content: center;
-      padding: 18px;
-      font-family: Arial, sans-serif;
-      color: white;
-      background:
-        radial-gradient(circle at top left, #30204f, transparent 45%),
-        radial-gradient(circle at bottom right, #4b1727, transparent 45%),
-        #080b14;
-    }
-
-    .page {
-      width: 100%;
-      max-width: 430px;
-    }
-
-    .brand {
-      text-align: center;
-      margin-bottom: 16px;
-      font-size: 13px;
-      letter-spacing: 2px;
-      color: #dce1ed;
-    }
-
-    .card {
-      overflow: hidden;
-      border-radius: 24px;
-      border: 1px solid rgba(255,255,255,.15);
-      background: rgba(255,255,255,.08);
-      box-shadow: 0 18px 55px rgba(0,0,0,.45);
-    }
-
-    .thumbnail {
-      display: block;
-      width: 100%;
-      height: auto;
-      aspect-ratio: 2 / 3;
-      object-fit: cover;
-      background: #171b28;
-    }
-
-    .content {
-      padding: 24px 20px 20px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 25px;
-      line-height: 1.3;
-      margin-bottom: 10px;
-    }
-
-    .subtitle {
-      color: #b6bdcc;
-      font-size: 14px;
-      line-height: 1.6;
-      margin-bottom: 22px;
-    }
-
-    .button {
-      display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 10px;
-      width: 100%;
-      min-height: 56px;
-      border-radius: 14px;
-      background: linear-gradient(135deg, #ff3152, #d91638);
-      color: white;
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-      box-shadow: 0 8px 24px rgba(255,49,82,.3);
-    }
-
-    .play {
-      display: grid;
-      place-items: center;
-      width: 29px;
-      height: 29px;
-      border-radius: 50%;
-      background: white;
-      color: #d91638;
-      font-size: 14px;
-    }
-
-    .note {
-      margin-top: 16px;
-      color: #8d96aa;
-      font-size: 11px;
-    }
-  </style>
-</head>
-
-<body>
-  <main class="page">
-    <div class="brand">SHIVA TECH</div>
-
-    <section class="card">
-      <img
-        src="thumbnail.webp"
-        class="thumbnail"
-        alt="पूरा वीडियो देखने के लिए क्लिक करें"
-        width="860"
-        height="1290"
-        fetchpriority="high"
-        decoding="async"
-      >
-
-      <div class="content">
-        <h1>पूरा वीडियो देखने के लिए नीचे क्लिक करें</h1>
-
-        <p class="subtitle">
-          वीडियो देखने के लिए नीचे दिए गए बटन पर क्लिक करें।
-        </p>
-
-        <a
-          class="button"
-          href="YOUR_APPROVED_LINK_HERE"
-          target="_blank"
-          rel="nofollow sponsored noopener"
-        >
-          <span class="play">▶</span>
-          यहाँ क्लिक करें
-        </a>
-
-        <p class="note">Sponsored content</p>
-      </div>
-    </section>
-  </main>
-</body>
-</html>
-[18/09, 1:26 am] 2nd: <!DOCTYPE html>
-<html lang="hi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>पूरा वीडियो देखें</title>
-  <meta
-    name="description"
-    content="पूरा वीडियो देखने के लिए नीचे क्लिक करें।"
-  >
-
-  <link rel="preload" as="image" href="thumbnail.webp">
-
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 18px;
-      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px 14px;
+      background: #080b14;
       color: #ffffff;
-      background:
-        radial-gradient(circle at top left, #30204f, transparent 45%),
-        radial-gradient(circle at bottom right, #4b1727, transparent 45%),
-        #080b14;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     .page {
       width: 100%;
-      max-width: 430px;
+      max-width: 420px;
+      margin: 0 auto;
     }
 
     .brand {
       text-align: center;
-      margin-bottom: 16px;
+      margin-bottom: 15px;
+      color: #e5e7eb;
       font-size: 13px;
+      font-weight: 700;
       letter-spacing: 2px;
-      color: #dce1ed;
-      font-weight: bold;
     }
 
     .card {
+      width: 100%;
       overflow: hidden;
-      border-radius: 24px;
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      background: rgba(255, 255, 255, 0.08);
-      box-shadow: 0 18px 55px rgba(0, 0, 0, 0.45);
+      border-radius: 22px;
+      background: #151927;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      box-shadow: 0 16px 45px rgba(0, 0, 0, 0.45);
     }
 
     .thumbnail {
       display: block;
       width: 100%;
       height: auto;
-      aspect-ratio: 2 / 3;
+      max-height: 610px;
       object-fit: cover;
-      background: #171b28;
+      background: #202536;
     }
 
     .content {
-      padding: 24px 20px 20px;
+      padding: 23px 18px 20px;
       text-align: center;
     }
 
     h1 {
-      font-size: 25px;
-      line-height: 1.3;
-      margin-bottom: 10px;
+      margin: 0 0 10px;
+      font-size: 24px;
+      line-height: 1.35;
       font-weight: 800;
     }
 
-    .subtitle {
-      color: #b6bdcc;
+    .description {
+      margin: 0 0 21px;
+      color: #b7becd;
       font-size: 14px;
       line-height: 1.6;
-      margin-bottom: 22px;
     }
 
     .button {
@@ -243,44 +91,52 @@
       gap: 10px;
       width: 100%;
       min-height: 56px;
-      border-radius: 14px;
-      background: linear-gradient(135deg, #ff3152, #d91638);
+      padding: 14px 18px;
+      border-radius: 13px;
       color: #ffffff;
+      background: linear-gradient(135deg, #ff3152, #d91538);
       text-decoration: none;
       font-size: 18px;
-      font-weight: bold;
-      box-shadow: 0 8px 24px rgba(255, 49, 82, 0.3);
-      transition: transform 0.15s ease, filter 0.15s ease;
-    }
-
-    .button:hover {
-      filter: brightness(1.08);
+      font-weight: 800;
+      box-shadow: 0 7px 22px rgba(255, 49, 82, 0.28);
+      -webkit-tap-highlight-color: transparent;
     }
 
     .button:active {
       transform: scale(0.98);
     }
 
-    .play {
-      display: grid;
-      place-items: center;
+    .play-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       width: 29px;
       height: 29px;
       border-radius: 50%;
       background: #ffffff;
-      color: #d91638;
+      color: #d91538;
       font-size: 14px;
+      flex-shrink: 0;
     }
 
-    .note {
-      margin-top: 16px;
-      color: #8d96aa;
+    .footer {
+      margin-top: 15px;
+      color: #858da1;
       font-size: 11px;
+      text-align: center;
     }
 
-    @media (prefers-reduced-motion: reduce) {
-      .button {
-        transition: none;
+    @media (max-width: 360px) {
+      body {
+        padding: 12px;
+      }
+
+      h1 {
+        font-size: 21px;
+      }
+
+      .content {
+        padding: 20px 14px;
       }
     }
   </style>
@@ -292,9 +148,9 @@
 
     <section class="card">
       <img
-        src="thumbnail.webp"
         class="thumbnail"
-        alt="पूरा वीडियो देखने के लिए क्लिक करें"
+        src="thumbnail.png"
+        alt="वीडियो देखने के लिए क्लिक करें"
         width="860"
         height="1290"
         fetchpriority="high"
@@ -304,7 +160,7 @@
       <div class="content">
         <h1>पूरा वीडियो देखने के लिए नीचे क्लिक करें</h1>
 
-        <p class="subtitle">
+        <p class="description">
           वीडियो देखने के लिए नीचे दिए गए बटन पर क्लिक करें।
         </p>
 
@@ -314,13 +170,15 @@
           target="_blank"
           rel="nofollow sponsored noopener"
         >
-          <span class="play">▶</span>
+          <span class="play-icon">▶</span>
           यहाँ क्लिक करें
         </a>
-
-        <p class="note">Sponsored content</p>
       </div>
     </section>
+
+    <div class="footer">
+      Sponsored content
+    </div>
   </main>
 </body>
-  </html>
+</html>
