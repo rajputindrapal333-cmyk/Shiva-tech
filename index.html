@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta name="description" content="Explore featured video content.">
-  <title>Featured Video</title>
+  <meta name="description" content="खास वीडियो और मनोरंजन सामग्री देखें।">
+  <title>खास वीडियो ❤️</title>
 
   <style>
     * {
@@ -15,96 +14,84 @@
     }
 
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f5f8;
-      color: #171717;
-    }
-
-    .page {
+      font-family: system-ui, Arial, sans-serif;
+      background: #0b0b16;
+      color: #fff;
       min-height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 20px;
+      padding: 15px;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 430px;
     }
 
     .card {
-      width: 100%;
-      max-width: 430px;
-      background: #fff;
-      border-radius: 18px;
       overflow: hidden;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
-      text-align: center;
+      border-radius: 22px;
+      background: #171725;
+      box-shadow: 0 10px 45px rgba(0,0,0,.4);
     }
 
     .photo {
+      display: block;
       width: 100%;
       height: auto;
-      max-height: 540px;
+      aspect-ratio: 1 / 1;
       object-fit: cover;
-      display: block;
     }
 
     .content {
-      padding: 28px 22px 30px;
+      padding: 28px 20px 25px;
+      text-align: center;
     }
 
     .label {
-      color: #e83d83;
-      font-size: 12px;
-      font-weight: bold;
-      letter-spacing: 2px;
-      margin-bottom: 12px;
+      color: #ff9bc5;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      margin-bottom: 16px;
     }
 
     h1 {
-      font-size: 25px;
-      line-height: 1.35;
-      margin-bottom: 12px;
+      font-size: clamp(26px, 7vw, 34px);
+      line-height: 1.4;
+      font-weight: 800;
+      margin-bottom: 22px;
     }
 
-    .description {
-      color: #666;
-      font-size: 15px;
-      line-height: 1.6;
-      margin-bottom: 24px;
+    h1 span {
+      display: block;
+      color: #ff83bb;
+      margin-top: 5px;
     }
 
     .button {
       display: block;
       width: 100%;
-      padding: 15px;
-      background: #e83d83;
-      color: white;
-      border-radius: 10px;
+      padding: 16px;
+      border-radius: 50px;
+      background: linear-gradient(135deg, #ff4f9a, #d92878);
+      color: #fff;
       text-decoration: none;
-      font-size: 16px;
-      font-weight: bold;
+      font-size: 17px;
+      font-weight: 800;
+      box-shadow: 0 7px 22px rgba(255,79,154,.3);
     }
 
     .button:active {
-      transform: scale(0.98);
+      transform: scale(.98);
     }
 
-    .footer {
+    .note {
       margin-top: 18px;
+      color: #aaaabd;
       font-size: 12px;
-      color: #999;
-    }
-
-    @media (max-width: 480px) {
-      .page {
-        padding: 12px;
-      }
-
-      .content {
-        padding: 24px 18px 26px;
-      }
-
-      h1 {
-        font-size: 23px;
-      }
+      line-height: 1.6;
     }
   </style>
 </head>
@@ -114,39 +101,36 @@
   <main class="page">
     <section class="card">
 
-      <!-- Apni original photo ka naam girl.jpg rakho -->
+      <!-- Tumhari poster wali original pic -->
       <img
         class="photo"
         src="girl.jpg"
-        alt="Featured content"
-        width="430"
-        height="538"
+        alt="खास वीडियो"
+        width="1024"
+        height="1024"
       >
 
       <div class="content">
 
-        <div class="label">FEATURED VIDEO</div>
+        <div class="label">♡ एक्सक्लूसिव वीडियो ♡</div>
 
         <h1>
-          Pura video dekhne ke liye neeche click kare 👇
+          पूरा वीडियो देखने के लिए
+          <span>नीचे क्लिक करें 👇</span>
         </h1>
 
-        <p class="description">
-          Explore the featured video content below.
-        </p>
-
-        <!-- Apna actual video URL yahan lagao -->
         <a
           class="button"
-          href="https://example.com"
+          href="https://www.profitableratecpmnetwork.com/inbfnexb4?key=46e9ed39c1b72d9f0a79b10cd80cdd34"
           rel="noopener noreferrer"
         >
-          Continue to Video →
+          वीडियो देखें →
         </a>
 
-        <div class="footer">
-          Please visit only content you wish to view.
-        </div>
+        <p class="note">
+          आगे बढ़ने से पहले सुनिश्चित करें कि आप
+          लिंक की सामग्री देखना चाहते हैं।
+        </p>
 
       </div>
     </section>
