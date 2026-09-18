@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="खास वीडियो और मनोरंजन सामग्री देखें।">
+
   <title>खास वीडियो ❤️</title>
 
   <style>
@@ -14,73 +14,60 @@
     }
 
     body {
-      font-family: system-ui, Arial, sans-serif;
+      font-family: Arial, sans-serif;
       background: #0b0b16;
-      color: #fff;
+      color: white;
       min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       padding: 15px;
     }
 
     .page {
       width: 100%;
       max-width: 430px;
+      margin: auto;
     }
 
     .card {
-      overflow: hidden;
-      border-radius: 22px;
       background: #171725;
-      box-shadow: 0 10px 45px rgba(0,0,0,.4);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,.4);
     }
 
-    .photo {
+    /* Full poster — crop nahi hoga */
+    .poster {
       display: block;
       width: 100%;
       height: auto;
-      aspect-ratio: 1 / 1;
-      object-fit: cover;
+      object-fit: contain;
     }
 
     .content {
-      padding: 28px 20px 25px;
+      padding: 24px 18px 26px;
       text-align: center;
     }
 
-    .label {
-      color: #ff9bc5;
-      font-size: 13px;
-      font-weight: 800;
-      letter-spacing: 1px;
-      margin-bottom: 16px;
-    }
-
     h1 {
-      font-size: clamp(26px, 7vw, 34px);
-      line-height: 1.4;
-      font-weight: 800;
-      margin-bottom: 22px;
+      font-size: 25px;
+      line-height: 1.5;
+      margin-bottom: 20px;
     }
 
     h1 span {
+      color: #ff75b5;
       display: block;
-      color: #ff83bb;
-      margin-top: 5px;
     }
 
     .button {
       display: block;
       width: 100%;
       padding: 16px;
-      border-radius: 50px;
       background: linear-gradient(135deg, #ff4f9a, #d92878);
-      color: #fff;
+      border-radius: 50px;
+      color: white;
       text-decoration: none;
       font-size: 17px;
-      font-weight: 800;
-      box-shadow: 0 7px 22px rgba(255,79,154,.3);
+      font-weight: bold;
     }
 
     .button:active {
@@ -88,10 +75,10 @@
     }
 
     .note {
-      margin-top: 18px;
       color: #aaaabd;
       font-size: 12px;
       line-height: 1.6;
+      margin-top: 16px;
     }
   </style>
 </head>
@@ -99,26 +86,26 @@
 <body>
 
   <main class="page">
+
     <section class="card">
 
-      <!-- Tumhari poster wali original pic -->
+      <!-- Tumhari original poster photo -->
       <img
-        class="photo"
-        src="girl.jpg"
-        alt="खास वीडियो"
+        class="poster"
+        src="./girl.jpg"
+        alt="वीडियो का पोस्टर"
         width="1024"
-        height="1024"
+        height="1536"
       >
 
       <div class="content">
 
-        <div class="label">♡ एक्सक्लूसिव वीडियो ♡</div>
-
         <h1>
-          पूरा वीडियो देखने के लिए
+          खास वीडियो देखने के लिए
           <span>नीचे क्लिक करें 👇</span>
         </h1>
 
+        <!-- Adsterra Smartlink -->
         <a
           class="button"
           href="https://www.profitableratecpmnetwork.com/inbfnexb4?key=46e9ed39c1b72d9f0a79b10cd80cdd34"
@@ -128,12 +115,14 @@
         </a>
 
         <p class="note">
-          आगे बढ़ने से पहले सुनिश्चित करें कि आप
-          लिंक की सामग्री देखना चाहते हैं।
+          आगे बढ़ने से पहले लिंक की सामग्री और
+          लागू आयु-प्रतिबंधों की जानकारी देखें।
         </p>
 
       </div>
+
     </section>
+
   </main>
 
 </body>
