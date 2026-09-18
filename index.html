@@ -16,7 +16,7 @@
     body {
       font-family: Arial, sans-serif;
       background: #0b0b16;
-      color: white;
+      color: #fff;
       min-height: 100vh;
       padding: 15px;
     }
@@ -28,57 +28,76 @@
     }
 
     .card {
-      background: #171725;
-      border-radius: 20px;
+      width: 100%;
       overflow: hidden;
-      box-shadow: 0 8px 30px rgba(0,0,0,.4);
+      border-radius: 20px;
+      background: #171725;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
     }
 
-    /* Full poster — crop nahi hoga */
+    /* FULL POSTER — CROP NAHI HOGA */
     .poster {
       display: block;
       width: 100%;
       height: auto;
-      object-fit: contain;
+      max-width: 100%;
     }
 
     .content {
-      padding: 24px 18px 26px;
+      padding: 24px 18px 28px;
       text-align: center;
     }
 
-    h1 {
-      font-size: 25px;
+    .title {
+      font-size: 24px;
       line-height: 1.5;
+      font-weight: bold;
       margin-bottom: 20px;
     }
 
-    h1 span {
-      color: #ff75b5;
+    .title span {
       display: block;
+      color: #ff75b5;
+      margin-top: 5px;
     }
 
     .button {
       display: block;
       width: 100%;
       padding: 16px;
-      background: linear-gradient(135deg, #ff4f9a, #d92878);
       border-radius: 50px;
+      background: linear-gradient(135deg, #ff4f9a, #d92878);
       color: white;
       text-decoration: none;
       font-size: 17px;
       font-weight: bold;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(255, 79, 154, 0.3);
     }
 
     .button:active {
-      transform: scale(.98);
+      transform: scale(0.98);
     }
 
     .note {
+      margin-top: 16px;
       color: #aaaabd;
       font-size: 12px;
       line-height: 1.6;
-      margin-top: 16px;
+    }
+
+    @media (max-width: 380px) {
+      body {
+        padding: 10px;
+      }
+
+      .content {
+        padding: 20px 14px 24px;
+      }
+
+      .title {
+        font-size: 22px;
+      }
     }
   </style>
 </head>
@@ -89,18 +108,19 @@
 
     <section class="card">
 
-      <!-- Tumhari original poster photo -->
+      <!-- Tumhari original full poster photo -->
       <img
         class="poster"
         src="./girl.jpg"
-        alt="वीडियो का पोस्टर"
+        alt="वीडियो पोस्टर"
         width="1024"
         height="1536"
       >
 
+      <!-- Neeche separate button -->
       <div class="content">
 
-        <h1>
+        <h1 class="title">
           खास वीडियो देखने के लिए
           <span>नीचे क्लिक करें 👇</span>
         </h1>
